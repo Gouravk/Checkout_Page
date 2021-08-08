@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 65px 15vw 10px 15vw;
+}
+
+header{
+    font-size: 40px;
+    font-weight: 800;
+    /* font-family: 'DM Serif Display', serif; */
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: rgb(78, 76, 76);
+}
+section{
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vh;
+    
+}
+main{
+    width: 50%;
+    flex-shrink: 5;
+    
+}
+.contact h2{
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: rgb(78, 76, 76);
+}
+.shipping h2{
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: rgb(78, 76, 76);
+}
+.field-text{
+    margin-top: 1.5vh;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size:15px;
+    font-weight: 600;
+    color: rgb(78, 76, 76);
+}
+
+.input-text{
+    margin-top:0.5vh;
+    border-radius: 1vw;
+    width:97%;
+    height: 7vh;
+    outline: none;
+    font-size:20px;
+    font-weight:600;    
+    padding-left: 45px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    position: relative;
+    border:2px solid grey;
+    
+    
+}
+.text-img{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-top: -40px;
+    margin-left: 10px;
+}
+
+.input2-text{
+    margin-top:0.5vh;
+    border-radius: 1vw;
+    width:90%;
+    height: 7vh;
+    outline: none;
+    font-size:20px;
+    font-weight:600;    
+    padding-left: 45px;
+    position: relative;
+    font-family: 'PT Sans Narrow', sans-serif;
+    border:2px solid grey;
+}
+#country-drop{
+    position: relative;
+    width: 140%;
+    border-radius: 1vw;
+    height: 7vh;
+    outline: none;
+    font-size:20px;
+     
+    padding-left: 45px;
+    z-index: 0;
+    
+    margin-top:0.5vh;
+    border:2px solid grey;
+    font-family: 'PT Sans Narrow', sans-serif;
+
+}
+.text2-img{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-top: 15px;
+    margin-left: 10px;
+    z-index: 2;
+}
+.postal{
+    margin-left: 10vw;
+
+}
+.merge{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.shipping{
+    margin-top: 5vh;
+}
+
+.submit-btn{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+#save{
+    margin-top: 20px;
+}
+#continue{
+    color: white;
+    font-size:20px;
+    font-weight:600;    
+    padding: 1vw;
+    font-family: 'PT Sans Narrow', sans-serif;
+    background-color: rgb(235, 126, 53);
+    border-radius: 10px;
+    border-color:rgb(235, 102, 53);
+    width: 30%;
+}
+
+aside{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    /* border:2px solid red; */
+    padding:40px 25px;
+    background-color: rgb(235, 228, 228);
+    border-radius: 15px;
+    height: 80%;
+    width: 33%;
+    flex-shrink: 1;
+    
+}
+.layer-1{
+    display: flex;
+}
+.layer-2{
+    display: flex;
+    margin-top: 30px;
+}
+.img-1{
+    width: 33%;
+    height:100%;
+    border-radius: 10px;
+}
+.content{
+    margin-left: 1vw;
+    width: 40%;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+
+.content div{
+    display: flex;
+    /* justify-content: space-around; */
+    color: rgb(235, 126, 53);
+    font-weight: 600;
+    margin-top: 2vh;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.content div p{
+    margin-left: 5px;
+    color: black;
+    text-decoration: line-through;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.quantity input{
+    width:100px ;
+    height:15px;
+    padding: 8px 5px;
+    border-radius: 4px;
+    text-align: center;
+    position: relative;
+    font-size: 15px;
+    background-color: rgb(235, 228, 228);
+    border: 1px solid grey;
+    outline: none;
+    border-radius: 10px;
+}
+ .quant{
+    
+    width:20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:1px solid  rgb(165, 162, 162);
+    background-color:  rgb(212, 207, 207);
+    border-radius: 4px;
+    color: rgb(110, 109, 109);
+    font-size: 20px;
+    cursor: pointer; 
+    
+}
+.plus{
+    position: absolute;
+    margin-left: 85px;
+    margin-top: 5px;
+    
+}
+.minus{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 5px;
+    z-index: 5;
+}
+.bill-item{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-between;
+    border-top: grey 2px solid;
+    /* border:2px solid red; */
+    padding-top: 5px;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.marg{
+    margin-top: 3vh;
+}
+.foot{
+    display:flex;
+    color:grey;
+    font-size:15px;
+    justify-content: center;
+    margin-top: 60px;
+    font-weight: 50;
+    font-family: 'EB Garamond', serif;
+    
+}
+
+.errorBox{
+    margin :5px;
+    font-size: 15px;
+    color: rgb(235, 126, 53);
+    z-index: 6;
+    border-left: 10px solid rgb(255, 166, 0);
+    border-bottom:2px solid rgb(255, 166, 0);
+    padding: 5px;
+}

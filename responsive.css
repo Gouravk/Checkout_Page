@@ -1,0 +1,131 @@
+@media screen and (max-width:950px){
+    body{
+        margin: 40px 5vw 10px 5vw;
+        
+    }
+    
+    .input-text{
+        border-radius: 3vw;
+        
+    
+    }
+    
+    .input2-text{
+        border-radius: 3vw;
+    }
+    #country-drop{
+        border-radius: 3vw;
+
+    }
+    .content{
+        margin-left: 3vw;
+        
+    }
+}
+@media screen and (max-width:730px) {
+    section{
+        flex-direction: column-reverse;
+    }
+    aside{
+        width: 90%;
+    }
+    main{
+        width: 90%;
+        margin-top: 10vw;
+    }
+    .input-text{
+        border-radius: 3vw;
+        
+    
+    }
+    .postal{
+        margin-left: 30vw;
+    }
+    .input2-text{
+        border-radius: 3vw;
+    }
+    #country-drop{
+        border-radius: 3vw;
+
+    }
+    .content{
+        margin-left: 3vw;
+        
+    }
+}
+@media screen and (max-width:460px) {
+    header{
+        font-size: 40px;
+        letter-spacing: 1px;
+    }
+    aside{
+        margin-top: 0px;
+        width: 80%;
+    }
+    .content{
+        margin-left: 1vw;
+        width: 60%;
+    }
+    .input-text{
+        border-radius: 3vw;
+        height: 5vh;
+        font-size:15px;
+        padding-left: 35px;
+        border:1px solid grey;
+    
+    }
+    .input2-text{
+        border-radius: 3vw;
+        height: 5vh;
+        font-size:15px;
+        padding-left: 35px;
+        border:1px solid grey;
+
+    
+    }
+    .postal{
+        margin-left: 20px;
+    }
+    .text-img{
+        /* height: 5vh; */
+        margin-top: -30px;
+        width: 20px;
+        height: 20px;
+
+    }
+    .text2-img{
+        /* height: 5vh; */
+        /* margin-top: -30px; */
+        width: 20px;
+        height: 20px;
+
+
+    }
+    #country-drop{
+        border-radius: 3vw;
+        width: 100%;
+        font-size:15px;
+        height: 5vh;
+        border:1px solid grey;
+
+
+    }
+    .postal{
+        width: 50%;
+    }
+    .content{
+        margin-left: 3vw;
+        font-size:18px;
+        
+    }
+    .bill-item{
+        font-size:20px;
+
+    }
+    #continue{
+        margin-top: 20px;
+        width:40%;
+        font-size:15px;
+    }
+    
+}

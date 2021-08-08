@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="devchallenges.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital@1&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  
+  <title>Checkout</title>
+</head>
+<body>
+  <header>
+    Checkout
+  </header>
+  <section>
+    <main>
+      <form class="contact-form" name="contact-form" action="/myaction.php" onsubmit="validateform()">
+        <div class="contact">
+          <h2>Contact Information</h2>
+        
+          <div class="email field-text" id="emailError">
+            <p>Email</p>
+            <input type="email" class="email-input input-text "  id="validemail"placeholder="Enter Your Email..." required>
+            <img src="Photos/img1.PNG" class="text-img"alt="">
+          </div>
+          <div class="phone field-text" id="phoneError">
+            <p>Phone</p>
+          <input type="phone" class="phone-input input-text" id="validphone" placeholder="Enter Your Phone..." required>
+          <img src="Photos/img2.PNG" class="text-img"alt="">
+          </div>
+          
+        </div>
+        <div class="shipping">
+          <h2>Shipping Address</h2>
+            <div class="fullname field-text" id="nameError">
+              <p>Full name</p>
+              <input type="text" class="name-input input-text" id="validname" value="Rodney Cotton" placeholder="Enter Your Name.." required>
+              <img src="Photos/img3.PNG" class="text-img"alt="">
+            </div>
+            <div class="address field-text" id="addressError">
+            <p>Address</p>
+          <input type="text" class="addrs-input input-text" id="validaddress" placeholder="Enter Your Address.." required>
+          <img src="Photos/img4.PNG" class="text-img"alt="">
+            </div>
+            <div class="city field-text" id="cityError">
+            <p>City</p>
+          <input type="text" class="city-input input-text" id="validcity" placeholder="Enter Your City.." required>
+          <img src="Photos/img5.PNG" class="text-img"alt="">
+            </div>
+            <div class="merge">
+              <div class="country field-text" id="countryError">
+                <p>Country</p>
+            
+                <img src="Photos/img6.PNG" class="text2-img"alt="">
+                <select name="Country" id="country-drop" required>
+                  <option value="" disabled selected style="color: grey; font-weight: 600;">Your Country..</option>
+                  <option value="US" style="color: black; font-weight: 600;">US</option>
+                  <option value="UK" style="color: black; font-weight: 600;">UK</option>
+                  <option value="India"style="color: black; font-weight: 600;">India</option>
+                  <option value="Australia"style="color: black; font-weight: 600;">Australia</option>
+                </select>
+              </div>
+              <div class="postal field-text" id="postalError">
+                <p>Postal Code</p>
+              <input type="text" class="postal-input input2-text" id="validpostal" placeholder="Your Postal Code.." required>
+              <img src="Photos/img7.PNG" class="text-img"alt="">
+              </div>
+            </div>
+        </div>
+        <input type="checkbox" name="" id="save"> Save this information for next time
+      
+        <div class="submit-btn">
+          <input type="submit" id="continue" value="Continue">
+        </div>
+      </form>
+    </main>
+    <aside>
+      <div class="layer-1">
+        <img src="Photos/photo1.png" class="img-1" alt="">
+        <div class="content">
+          <h3>Vintage Backbag</h3>
+          <div>
+            <nav>$54.99</nav>
+            <p>$94.99</p>
+          </div>
+          <div class="quantity">
+            <button class="minus quant"  id="subtract1">-</button>
+            <input type="number" class="quant-text" id="id-quant1" value="1">
+            <button class="plus quant" id="add1" >+</button>
+          </div>
+          
+        </div>
+      </div>
+      <div class="layer-2">
+        <img src="Photos/photo2.png" class="img-1" alt="">
+        <div class="content">
+          <h3>Levi Shoes</h3>
+          <div>
+            <nav>$74.99</nav>
+            <p>$124.99</p>
+          </div>
+          <div class="quantity">
+            <button class="minus quant" id="subtract2">-</button>
+            <input type="number" class="quant-text" id="id-quant2" value="1">
+            <button class="plus quant" id="add2">+</button>
+          </div>
+        </div>  
+      </div>
+      
+      <div class="bill">
+        <div class="bill-item">
+          <p>Shipping</p>
+          <p>$19</p>
+        </div>
+        <div class="bill-item marg">
+          <p>Total</p>
+          <p>$148.98</p>
+        </div>
+      </div>
+      
+      
+      
+    </aside>
+  </section>
+  <footer class="footer1 ">
+    <div class="foot">
+      created by @Gouravk
+    </div>
+  </footer>
+  <script src="Js/butn.js"></script>
+</body>
+
+</html>
